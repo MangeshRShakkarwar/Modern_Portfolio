@@ -2,6 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
+  { name: "Resume", link: "/resume.pdf" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -73,11 +74,29 @@ export const projects = [
   {
     id: 1,
     title: "Modern Portfolio with NextJS",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Crafted a personal portfolio project using Next.js, React.js, React-icons, Tailwind CSS, Accordion UI, and Shadow CSS UI from January to April 2024. Showcased skills, projects, and professional experience for effective self-promotion. 🌟",
     img: "/p1.svg",
-    live_link:"",
-    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/js.png"],
+    live_link:"https://mangesh-portfolio.vercel.app/",
+    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/js.png","/shadcn.png"],
     github_link: "https://github.com/MangeshRShakkarwar/mangesh-portfolio",
+  },
+  {
+    id: 2,
+    title: "PopCornPal - Your Movie Ally",
+    des:" Implemented a Movie Review Application from Jan - May 2024 using MERN stack.Tailwind CSS and React icons for a polished UI, incorporating a chatbot for enhanced interaction. Provided user-based recommendations and an upvote feature for community engagement, enhancing usability for effortless interaction and easy initiation. 🚀",
+    img: "/p1.svg",
+    live_link:"https://popcorn-pal-front.vercel.app/",
+    iconLists: ["/re.svg","/express.png","/mongodb.svg", "/tail.svg","/react-icons.png", "/js.png"],
+    github_link: "https://github.com/MangeshRShakkarwar/PopCornPal---Your-Movie-Ally--Frontend",
+  },
+  {
+    id: 3,
+    title: "Drive Rentals - Book your Car",
+    des:"Developed a Car Rental System  Utiling HTML, CSS, PHP, and MySQL to create a user-friendly interface and secure booking system from January to July 2023. Enhanced system functionality and usability for seamless rental experiences. 🌟",
+    img: "/p1.svg",
+    live_link:"https://github.com/MangeshRShakkarwar/DriveRentals",
+    iconLists: ["/html.png","/css.png", "/js.png", "/php.png","/mysql.png"],
+    github_link: "https://github.com/MangeshRShakkarwar/DriveRentals",
   },
 ];
 
@@ -121,5 +140,10 @@ export const socialMedia = [
     id: 2,
     img: "/link.svg",
     link:"https://www.linkedin.com/in/mangesh-shakkarwar",
+  },
+  {
+    id: 3,
+    img: "/wha.svg",
+    link:"https://wa.link/2bykkf",
   },
 ];
