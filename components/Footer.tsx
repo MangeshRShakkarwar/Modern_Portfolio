@@ -35,7 +35,7 @@ const Footer = () => {
           Copyright © 2024 Mangesh Shakkarwar
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-7">
           {socialMedia.map((info) => (
             <div
               key={info.id}
