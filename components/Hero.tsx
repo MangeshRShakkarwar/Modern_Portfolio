@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="I&apos;m Mangesh Shakkarwar  Namaste 🙏"
+            words="I&apos;m Mangesh Shakkarwar  Namaste !"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
