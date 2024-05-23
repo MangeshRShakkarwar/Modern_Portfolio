@@ -1,15 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "I prioritize collaboration and open communication, ensuring a cohesive and innovative team environment.",
+    description: "Let's Work !",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently delving into virtual reality, exploring its vast potential and pushing boundaries in the field.",
+    description: "The Inside Scoop !",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,97 +72,40 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Modern Portfolio with NextJS",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
+    live_link:"",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    github_link: "https://github.com/MangeshRShakkarwar/mangesh-portfolio",
   },
 ];
 
 export const education = [
   {
-    description:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    education: "Director of AlphaStream Technologies",
+    education: "Bachelor of Technology",
+    name: "SGGSIE&T,Nanded",
+    description:"Majored in Computer Science and Engineering, graduating with a CGPA of 8.47 (2021 - 2024). Demonstrated strong academic performance and a solid foundation in computer science principles and engineering practices."
   },
   {
-    description:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    education: "Director of AlphaStream Technologies",
+    education: "Higher Secondary Education",
+    name: "Cambridge Junior College,Nanded",
+    description:"Completed Science with a focus on Computer Science (2018 - 2020), achieving a 76.15% score. This period solidified my interest and foundational knowledge in computer science."
   },
   {
-    description:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    education: "Director of AlphaStream Technologies",
+    education: "Bachelor of Technology",
+    name: "Shri Shivaji High School,Nanded",
+    description:"Completed Secondary Education with a 92.40% score (2017 - 2018). Developed a strong interest in mathematics and computers and excelled in extracurricular activities during this period."
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Full Stack Development Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Web Development Intern",
+    company:" DeveloperCorners [Jan-June 2023]",
+    desc: "Led the creation of dynamic web applications using the MERN stack. Implemented targeted optimizations that boosted application efficiency and scalability by 30%. Played a key role in improving user experience and contributing to project success within a professional team setting.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -172,11 +115,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"",
+    link:"https://github.com/MangeshRShakkarwar",
   },
   {
     id: 2,
     img: "/link.svg",
-    link:"",
+    link:"www.linkedin.com/in/mangesh-shakkarwar",
   },
 ];
