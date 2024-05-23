@@ -93,7 +93,7 @@ export const projects = [
     id: 3,
     title: "Drive Rentals - Book your Car",
     des:"Developed a Car Rental System  Utiling HTML, CSS, PHP, and MySQL to create a user-friendly interface and secure booking system from January to July 2023. Enhanced system functionality and usability for seamless rental experiences. 🌟",
-    img: "/p1.png",
+    img: "/p3.png",
     live_link:"https://github.com/MangeshRShakkarwar/DriveRentals",
     iconLists: ["/html.png","/css.png", "/js.png", "/php.png","/mysql.png"],
     github_link: "https://github.com/MangeshRShakkarwar/DriveRentals",
