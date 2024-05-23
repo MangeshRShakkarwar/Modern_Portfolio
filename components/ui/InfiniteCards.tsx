@@ -11,9 +11,9 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
+    description: string;
     name: string;
-    title: string;
+    education: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -111,7 +111,7 @@ export const InfiniteMovingCards = ({
               ></div>
               {/* change text color, text-lg */}
               <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
-                {item.quote}
+                {item.description}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
@@ -125,7 +125,7 @@ export const InfiniteMovingCards = ({
                   </span>
                   {/* change text color */}
                   <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                    {item.title}
+                    {item.education}
                   </span>
                 </span>
               </div>

@@ -1,6 +1,6 @@
 "use client"
 import Approach from "@/components/Approach";
-import Clients from "@/components/Clients";
+import Clients from "@/components/Education";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
