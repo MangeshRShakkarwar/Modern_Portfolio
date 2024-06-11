@@ -34,8 +34,8 @@ To get started with the project, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-portfolio.git
-    cd your-portfolio
+    git clone https://github.com/MangeshRShakkarwar/Modern_Portfolio.git
+    cd Modern_Portfolio
     ```
 
 2. **Install dependencies:**
